@@ -1,0 +1,98 @@
+/* Estilos globales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 30px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Estilos para la cabecera */
+.profile-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-header img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    margin-right: 20px;
+    border: 2px solid #007acc;
+}
+
+.profile-header .details h1 {
+    font-size: 28px;
+    margin: 0;
+    color: #333;
+}
+
+.profile-header .details p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.profile-header .details a {
+    color: #007acc;
+    text-decoration: none;
+}
+
+.profile-header .details a:hover {
+    text-decoration: underline;
+}
+
+/* Sección */
+.section {
+    margin-bottom: 25px;
+}
+
+.section h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #007acc;
+    padding-bottom: 5px;
+}
+
+.section ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.section ul li {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.section p {
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Certificaciones y capacitaciones */
+ul li strong {
+    color: #333;
+}
+
+.section a {
+    color: #007acc;
+}
+
+.section a:hover {
+    text-decoration: underline;
+}
+
+/* Referencias */
+.section:last-child {
+    margin-bottom: 0;
+}
