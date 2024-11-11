@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solicitud de Día Libre</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Solicitud de Día Libre</h1>
+    </header>
+    <main>
+        <form id="dayOffForm" onsubmit="return validateDayOff()">
+            <label for="dayOffDate">Selecciona la Fecha:</label>
+            <input type="date" id="dayOffDate" required>
+            <label for="reason">Motivo:</label>
+            <textarea id="reason" required></textarea>
+            <button type="submit">Enviar Solicitud</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 Universidad Laica Eloy Alfaro de Manabí</p>
+        <button onclick="window.history.back()">Regresar</button>
+        <button onclick="logout()">Cerrar Sesión</button>
+    </footer>
+</body>
+</html>
+

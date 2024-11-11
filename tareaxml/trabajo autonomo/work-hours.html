@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horas Trabajadas</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Horas Trabajadas</h1>
+    </header>
+    <main>
+        <h2>Registro de Horas Trabajadas (HTML)</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Fecha</th>
+                    <th>Hora de Entrada</th>
+                    <th>Hora de Salida</th>
+                    <th>Total Horas</th>
+                </tr>
+            </thead>
+            <tbody id="workHoursTable">
+                <!-- Filas de horas trabajadas desde localStorage se agregarán aquí -->
+            </tbody>
+        </table>
+        
+        <h2>Registro de Horas Trabajadas (XML)</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Fecha</th>
+                    <th>Hora de Entrada</th>
+                    <th>Hora de Salida</th>
+                    <th>Total Horas</th>
+                </tr>
+            </thead>
+            <tbody id="xmlWorkHoursTable">
+                <!-- Filas de horas trabajadas desde XML se agregarán aquí -->
+            </tbody>
+        </table>
+    </main>
+    <footer>
+        <p>&copy; 2024 Universidad Laica Eloy Alfaro de Manabí</p>
+        <button onclick="window.history.back()">Regresar</button>
+        <button onclick="logout()">Cerrar Sesión</button>
+    </footer>
+</body>
+</html>
+
+

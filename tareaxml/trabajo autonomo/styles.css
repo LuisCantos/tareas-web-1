@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* Blanco */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #d32f2f; /* Rojo oscuro */
+    color: white; /* Texto blanco */
+    padding: 20px;
+    text-align: center;
+    position: relative; /* Para el posicionamiento del logo */
+}
+
+.logo {
+    position: absolute; /* Permite posicionar el logo en la parte superior izquierda */
+    top: 0px; 
+    left: 10px; 
+    height: 60px; /* Ajusta el tamaño según sea necesario */
+}
+
+nav {
+    margin: 10px 0;
+}
+
+nav label {
+    margin-right: 5px;
+    color: white; /* Texto de navegación en blanco */
+}
+
+nav input {
+    margin: 0 5px;
+    padding: 5px;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.card {
+    background-color: #ffffff; /* Blanco */
+    border: 1px solid #d32f2f; /* Borde rojo */
+    border-radius: 8px;
+    padding: 15px;
+    width: 30%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra para las tarjetas */
+    transition: transform 0.3s; /* Transición para efectos */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Efecto de aumento al pasar el ratón */
+}
+
+footer {
+    background-color: #d32f2f; /* Rojo oscuro */
+    color: white; /* Texto blanco */
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/*css logo uleam*/
+header {
+    background-color: #d32f2f; /* Rojo oscuro */
+    color: white; /* Texto blanco */
+    padding: 20px;
+    text-align: center;
+    position: relative; /* Para el posicionamiento del logo */
+}
+
+.logo {
+    position: absolute; /* Permite posicionar el logo en la parte superior izquierda */
+    top: 0px; 
+    left: 0px; 
+    height: 180px; 
+}
